@@ -1,22 +1,23 @@
-# customer-churn-prediction
+# Customer Churn Prediction
 
-This project predicts customer churn using Machine Learning.
+This project predicts customer churn using Machine Learning techniques.
+
+## Models Used
+- Logistic Regression
+- Decision Tree Classifier
+
+## Features
+- Data cleaning
+- Feature encoding using pd.get_dummies()
+- Hyperparameter tuning using GridSearchCV
+- Confusion matrix visualization
+- Model comparison
 
 ## Tools Used
 - Python
 - Pandas
+- Matplotlib
 - Scikit-learn
 
-## Machine Learning Workflow
-1. Data Cleaning
-2. Feature Selection
-3. Train/Test Split
-4. Logistic Regression
-5. Accuracy Evaluation
-
-## Result
-The model achieved approximately 78% accuracy.
-
-## Project Files
-- app.py
-- requirements.txt
+## Results
+The models achieved approximately 78% accuracy on the test dataset.
