@@ -5,13 +5,19 @@ This project predicts customer churn using Machine Learning techniques.
 ## Models Used
 - Logistic Regression
 - Decision Tree Classifier
+- Random Forest Classifier
 
-## Features
-- Data cleaning
-- Feature encoding using pd.get_dummies()
-- Hyperparameter tuning using GridSearchCV
-- Confusion matrix visualization
-- Model comparison
+## Techniques Used
+- Feature Engineering
+- GridSearchCV
+- RandomizedSearchCV
+- Confusion Matrix Visualization
+- Feature Importance Analysis
+- Accuracy Comparison
+
+## Visualization
+- Confusion Matrix Comparison
+- Model Accuracy Comparison
 
 ## Tools Used
 - Python
